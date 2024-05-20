@@ -703,30 +703,36 @@ object {
 	font-family: var(--font-headings, sans-serif);
 	font-weight: bold;
 	clear: both;
+	color: #0F295A;
+
 }
 
 .wp-block-heading h1, h1, .h1 {
 	font-size: 2.98598em;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 .wp-block-heading h2, h2, .h2 {
 	font-size: 2.48832em;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 .wp-block-heading h3, h3, .h3 {
 	font-size: 2.0736em;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 .wp-block-heading h4, h4, .h4 {
 	font-size: 1.728em;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 .wp-block-heading h5, h5, .h5 {
@@ -739,6 +745,7 @@ object {
 	font-size: 1.2em;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 /* Center image block by default in the editor */

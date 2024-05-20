@@ -304,6 +304,7 @@ main {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+	color: #0F295A;
 }
 
 /* Grouping content
@@ -1662,8 +1663,9 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
 	font-family: "Open Sans", sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	clear: both;
+	color: #0F295A;
 }
 
 h1, .h1 {

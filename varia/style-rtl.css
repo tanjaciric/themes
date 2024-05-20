@@ -1626,42 +1626,49 @@ h6, .h6 {
 	font-family: var(--font-headings, sans-serif);
 	font-weight: bold;
 	clear: both;
+	color: #0F295A;
 }
 
 h1, .h1 {
 	font-size: 2.98598rem;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 h2, .h2 {
 	font-size: 2.48832rem;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 h3, .h3 {
 	font-size: 2.0736rem;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 h4, .h4 {
 	font-size: 1.728rem;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 h5, .h5 {
 	font-size: 1.44rem;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 h6, .h6 {
 	font-size: 1.2rem;
 	letter-spacing: normal;
 	line-height: 1.125;
+	color: #0F295A;
 }
 
 .wp-block-image {
