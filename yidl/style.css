@@ -206,7 +206,7 @@ input[type="submit"],
 	font-weight: 700;
 	font-family: "Open Sans", sans-serif;
 	font-size: 0.83333rem;
-	background-color: #19744C;
+	background-color: #F86900;
 	border-radius: 4px;
 	border-width: 0;
 	text-decoration: none;
@@ -685,7 +685,7 @@ body {
  * Links styles
  */
 a {
-	color: #19744C;
+	color: #F86900;
 }
 
 a:hover {
@@ -1255,7 +1255,7 @@ object {
 }
 
 .wp-block-newspack-blocks-homepage-articles article .entry-title a {
-	color: #19744C;
+	color: #F86900;
 }
 
 .has-background:not(.has-background-background-color) .wp-block-newspack-blocks-homepage-articles article .entry-title a,
@@ -1381,12 +1381,12 @@ button[data-load-more-btn],
 
 .wp-block-button.is-style-outline.wp-block-button__link:not(.has-text-color),
 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color) {
-	color: #19744C;
+	color: #F86900;
 }
 
 .wp-block-button.is-style-outline.wp-block-button__link:active,
 .wp-block-button.is-style-outline .wp-block-button__link:active {
-	color: #19744C;
+	color: #F86900;
 }
 
 .wp-block-button.is-style-outline.wp-block-button__link:hover, .wp-block-button.is-style-outline.wp-block-button__link:focus, .wp-block-button.is-style-outline.wp-block-button__link.has-focus,
@@ -1581,7 +1581,7 @@ button[data-load-more-btn],
 }
 
 .wp-block-file .wp-block-file__button {
-	background-color: #19744C;
+	background-color: #F86900;
 	color: #FFFFFF;
 	font-size: 0.83333rem;
 	margin-left: 16px;
@@ -1965,7 +1965,7 @@ p.has-background {
 
 .a8c-posts-list-item__featured span {
 	color: #FFFFFF;
-	background-color: #19744C;
+	background-color: #F86900;
 	font-family: "Open Sans", sans-serif;
 	font-weight: bold;
 	font-size: 0.83333rem;
@@ -2069,11 +2069,11 @@ p.has-background {
 }
 
 .wp-block-pullquote.is-style-solid-color:not(.has-background) {
-	background-color: #19744C;
+	background-color: #F86900;
 }
 
 .wp-block-quote {
-	border-left-color: #19744C;
+	border-left-color: #F86900;
 	margin: 32px 0;
 	padding-left: 16px;
 	/**
@@ -2131,7 +2131,7 @@ p.has-background {
 }
 
 .wp-block-quote[style*="text-align:right"], .wp-block-quote[style*="text-align: right"] {
-	border-right-color: #19744C;
+	border-right-color: #F86900;
 }
 
 .wp-block-quote.is-style-large, .wp-block-quote.is-large {
@@ -2417,7 +2417,7 @@ table.is-style-stripes tbody tr:nth-child(odd),
 }
 
 .has-primary-color {
-	color: #19744C;
+	color: #F86900;
 }
 
 .has-secondary-color {
@@ -2461,7 +2461,7 @@ table.is-style-stripes tbody tr:nth-child(odd),
 
 .has-primary-background-color,
 .has-primary-background-color.has-background-dim {
-	background-color: #19744C;
+	background-color: #F86900;
 }
 
 .has-primary-background-color:not(.has-text-color),
@@ -2740,7 +2740,7 @@ table.is-style-stripes tbody tr:nth-child(odd),
 }
 
 .site-title a:hover {
-	color: #19744C;
+	color: #F86900;
 }
 
 .site-description {
@@ -2774,7 +2774,7 @@ body:not(.fse-enabled) .site-description {
 }
 
 .main-navigation #toggle:focus + #toggle-menu {
-	background-color: #19744C;
+	background-color: #F86900;
 	outline: inherit;
 	text-decoration: underline;
 }
@@ -2925,7 +2925,7 @@ body:not(.fse-enabled) .site-description {
 }
 
 .main-navigation a:hover {
-	color: #19744C;
+	color: #F86900;
 }
 
 .main-navigation .sub-menu {
@@ -2994,7 +2994,7 @@ body:not(.fse-enabled) .main-navigation a {
 }
 
 .social-navigation a:hover {
-	color: #19744C;
+	color: #F86900;
 }
 
 .social-navigation svg {
@@ -3043,7 +3043,7 @@ body:not(.fse-enabled) .main-navigation a {
 }
 
 .site-info a:hover {
-	color: #19744C;
+	color: #F86900;
 }
 
 .footer-navigation {
@@ -3102,7 +3102,7 @@ body:not(.fse-enabled) .main-navigation a {
 }
 
 .footer-navigation .footer-menu a:hover {
-	color: #19744C;
+	color: #F86900;
 }
 
 body:not(.fse-enabled) .footer-menu a {
@@ -3609,7 +3609,7 @@ body:not(.fse-enabled) .footer-menu a {
  */
 .sticky-post {
 	color: #FFFFFF;
-	background-color: #19744C;
+	background-color: #F86900;
 	font-family: "Open Sans", sans-serif;
 	font-weight: bold;
 	font-size: 0.83333rem;
@@ -4206,7 +4206,7 @@ dt {
 	.main-navigation > div > ul > .menu-item-has-children > a::after {
 		border-left: 4px solid transparent;
 		border-right: 4px solid transparent;
-		border-top: 4px solid #19744C;
+		border-top: 4px solid #F86900;
 		content: "";
 		margin: 0;
 		margin-left: 4px;
@@ -4362,7 +4362,7 @@ dt {
 .wp-block-newspack-blocks-homepage-articles article .entry-title a:active,
 .wp-block-newspack-blocks-homepage-articles article .entry-title a:focus,
 .wp-block-newspack-blocks-homepage-articles article .entry-title a:hover {
-	color: #19744C;
+	color: #F86900;
 }
 
 .entry-title,
@@ -4406,7 +4406,7 @@ dt {
 .post-navigation a:active .post-title,
 .post-navigation a:focus .post-title,
 .post-navigation a:hover .post-title {
-	color: #19744C;
+	color: #F86900;
 	text-decoration: underline;
 }
 
@@ -4437,7 +4437,7 @@ dt {
 }
 
 .comment-meta .comment-author .fn a:active, .comment-meta .comment-author .fn a:focus, .comment-meta .comment-author .fn a:hover {
-	color: #19744C;
+	color: #F86900;
 }
 
 .comment-meta .comment-author .avatar {

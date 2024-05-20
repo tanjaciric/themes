@@ -68,7 +68,7 @@ add_editor_color_rule( 'bg', '#FFFFFF', array(
 
 // Link Color (Blue)
 // $config-global--color-primary-default
-add_editor_color_rule( 'link', '#19744C', array(
+add_editor_color_rule( 'link', '#F86900', array(
 
 	// Text-color
 	array( '#editor .editor-styles-wrapper .wp-block-a8c-blog-posts .entry-title a,

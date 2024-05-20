@@ -135,7 +135,7 @@ add_color_rule( 'bg', '#FFFFFF', array(
 
 // Link Color (Blue)
 // $config-global--color-primary-default
-add_color_rule( 'link', '#19744C', array(
+add_color_rule( 'link', '#F86900', array(
 
 	// Background-color
 	array( '.a8c-posts-list-item__featured span,

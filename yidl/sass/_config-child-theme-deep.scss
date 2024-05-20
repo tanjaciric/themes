@@ -70,8 +70,8 @@ $config-global: (
 	/* Colors */
 	"color": (
 		"primary": (
-			"default": #19744C,
-			"hover": darken(#19744C, 5%),
+			"default": #F86900,
+			"hover": darken(#F86900, 5%),
 		),
 		"secondary": (
 			"default": #BC2213,
@@ -93,12 +93,12 @@ $config-global: (
 			"dark": #B0B0B0,
 		),
 		"alert": (
-			"success": #19744C,
+			"success": #F86900,
 			"info": #3e8bff,
 			"warning": #e8a600,
 			"error": #d20000,
 		),
-		"text-selection": lighten(#19744C, 60%),
+		"text-selection": lighten(#F86900, 60%),
 		"black": black,
 		"white": white,
 	),

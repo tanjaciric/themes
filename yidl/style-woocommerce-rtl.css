@@ -260,7 +260,7 @@ body[class*="woocommerce"] #page .woocommerce.widget_shopping_cart .buttons a {
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	font-family: var(--font-base, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
 	font-size: 0.83333rem;
-	background-color: #19744C;
+	background-color: #F86900;
 	border-radius: 4px;
 	border-width: 0;
 	text-decoration: none;
@@ -432,7 +432,7 @@ body[class*="woocommerce"] #page .woocommerce-warning {
 	margin-bottom: 32px;
 	background-color: #F0F0F0;
 	color: #101010;
-	border-top-color: #19744C;
+	border-top-color: #F86900;
 }
 
 body[class*="woocommerce"] #page .woocommerce-notice--message,
@@ -441,7 +441,7 @@ body[class*="woocommerce"] #page .woocommerce-notice--info {
 }
 
 body[class*="woocommerce"] #page .woocommerce-notice--success {
-	color: #19744C;
+	color: #F86900;
 }
 
 body[class*="woocommerce"] #page .woocommerce-notice--error {
@@ -463,11 +463,11 @@ body[class*="woocommerce"] #page .woocommerce-info:before {
 }
 
 body[class*="woocommerce"] #page .woocommerce-success {
-	border-top-color: #19744C;
+	border-top-color: #F86900;
 }
 
 body[class*="woocommerce"] #page .woocommerce-success:before {
-	color: #19744C;
+	color: #F86900;
 }
 
 body[class*="woocommerce"] #page .woocommerce-error {
@@ -500,7 +500,7 @@ body[class*="woocommerce"] #page .woocommerce-password-strength {
 }
 
 body[class*="woocommerce"] #page .woocommerce-password-strength.strong {
-	background-color: #19744C;
+	background-color: #F86900;
 	border-color: none;
 }
 
@@ -676,7 +676,7 @@ body[class*="woocommerce"] #page .woocommerce button.button:disabled[disabled]:h
 body[class*="woocommerce"] #page .woocommerce input.button.disabled:hover,
 body[class*="woocommerce"] #page .woocommerce input.button:disabled:hover,
 body[class*="woocommerce"] #page .woocommerce input.button:disabled[disabled]:hover {
-	background-color: #19744C;
+	background-color: #F86900;
 }
 
 /**
@@ -731,7 +731,7 @@ body[class*="woocommerce"] #page .woocommerce input.button:disabled[disabled]:ho
 }
 
 #content .wc-block-grid .wc-block-grid__product-price ins {
-	color: #19744C;
+	color: #F86900;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -841,7 +841,7 @@ body[class*="woocommerce"] #page .main-navigation #woocommerce-toggle:checked ~ 
 }
 
 body[class*="woocommerce"] #page .main-navigation #woocommerce-toggle:focus + #toggle-cart {
-	background-color: #19744C;
+	background-color: #F86900;
 	outline: inherit;
 	text-decoration: underline;
 }
@@ -952,7 +952,7 @@ body[class*="woocommerce"] #page .main-navigation .woocommerce-cart-widget .wooc
 body[class*="woocommerce"] #page .main-navigation .woocommerce-cart-widget .woocommerce-mini-cart__buttons a {
 	clear: left;
 	color: #FFFFFF;
-	background-color: #19744C;
+	background-color: #F86900;
 	margin: 0;
 	float: left;
 }
@@ -1164,7 +1164,7 @@ body[class*="woocommerce"] #page .cart-collaterals .cross-sells ul.products li.p
 #woocommerce-wrapper ul.products li.product.sale a > .price ins,
 body[class*="woocommerce"] #page #add_payment_method .cart-collaterals .cross-sells ul.products li.product.sale a > .price ins,
 body[class*="woocommerce"] #page .cart-collaterals .cross-sells ul.products li.product.sale a > .price ins {
-	color: #19744C;
+	color: #F86900;
 }
 
 /**
@@ -1336,7 +1336,7 @@ body[class*="woocommerce"] #page #reviews #comments .commentlist > li::before {
  */
 body[class*="woocommerce"] .woocommerce-store-notice,
 body[class*="woocommerce"] p.demo_store {
-	background-color: #19744C;
+	background-color: #F86900;
 	color: #FFFFFF;
 	position: fixed;
 	top: auto;
@@ -2003,7 +2003,7 @@ body[class*="woocommerce"] #page .woocommerce-ordering select {
 }
 
 .single-product #page #woocommerce-wrapper div.product div.summary .stock {
-	color: #19744C;
+	color: #F86900;
 }
 
 .single-product #page #woocommerce-wrapper div.product div.summary .out-of-stock {
@@ -2025,7 +2025,7 @@ body[class*="woocommerce"] #page .woocommerce-ordering select {
 
 .single-product #page #woocommerce-wrapper div.product.sale div.summary .span.price ins,
 .single-product #page #woocommerce-wrapper div.product.sale div.summary p.price ins {
-	color: #19744C;
+	color: #F86900;
 }
 
 .single-product #page #woocommerce-wrapper div.product div.social {
@@ -2158,7 +2158,7 @@ body[class*="woocommerce"] #page .woocommerce.widget_shopping_cart .buttons a#wo
  */
 body[class*="woocommerce"] #page .widget_price_filter .ui-slider .ui-slider-range,
 body[class*="woocommerce"] #page .widget_price_filter .ui-slider .ui-slider-handle {
-	background-color: #19744C;
+	background-color: #F86900;
 }
 
 body[class*="woocommerce"] #page .widget_price_filter .price_slider_wrapper .ui-widget-content {
