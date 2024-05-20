@@ -90,12 +90,12 @@ if ( ! function_exists( 'barnsbury_setup' ) ) :
 					'color' => $foreground,
 				),
 				array(
-					'name'  => __( 'Foreground Light', 'balasana' ),
+					'name'  => __( 'Foreground Light', 'yidl' ),
 					'slug'  => 'foreground-light',
 					'color' => $foreground_light,
 				),
 				array(
-					'name'  => __( 'Foreground Dark', 'balasana' ),
+					'name'  => __( 'Foreground Dark', 'yidl' ),
 					'slug'  => 'foreground-dark',
 					'color' => $foreground_dark,
 				),

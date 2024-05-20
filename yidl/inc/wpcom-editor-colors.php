@@ -1,6 +1,6 @@
 <?php
 /*
- * Custom Editor Colors: Balasana
+ * Custom Editor Colors: yidl
  */
 
 // Background Color (White)
@@ -175,10 +175,10 @@ add_editor_color_rule( 'fg1', '#BC2213', array(
 /**
   * Custom CSS
   */
-function balasana_custom_colors_extra_css() { ?>
+function yidl_custom_colors_extra_css() { ?>
 	/* Ensure links match the front end when there's a custom background color. */
 	#editor .editor-styles-wrapper .wp-block .has-background:not(.has-background-background-color) a {
 		color: currentColor;
 	}
 <?php }
-add_theme_support( 'custom_colors_extra_css', 'balasana_custom_colors_extra_css' );
+add_theme_support( 'custom_colors_extra_css', 'yidl_custom_colors_extra_css' );

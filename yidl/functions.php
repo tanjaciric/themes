@@ -5,11 +5,11 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package WordPress
- * @subpackage Balasana
+ * @subpackage yidl
  * @since 1.0.0
  */
 
-if ( ! function_exists( 'balasana_setup' ) ) :
+if ( ! function_exists( 'yidl_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -17,7 +17,7 @@ if ( ! function_exists( 'balasana_setup' ) ) :
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
-	function balasana_setup() {
+	function yidl_setup() {
 		// Add child theme editor styles, compiled from `style-child-theme-editor.scss`.
 		add_editor_style( 'style-editor.css' );
 
@@ -26,26 +26,26 @@ if ( ! function_exists( 'balasana_setup' ) ) :
 			'editor-font-sizes',
 			array(
 				array(
-					'name'      => __( 'Small', 'balasana' ),
-					'shortName' => __( 'S', 'balasana' ),
+					'name'      => __( 'Small', 'yidl' ),
+					'shortName' => __( 'S', 'yidl' ),
 					'size'      => 16.666,
 					'slug'      => 'small',
 				),
 				array(
-					'name'      => __( 'Normal', 'balasana' ),
-					'shortName' => __( 'M', 'balasana' ),
+					'name'      => __( 'Normal', 'yidl' ),
+					'shortName' => __( 'M', 'yidl' ),
 					'size'      => 20,
 					'slug'      => 'normal',
 				),
 				array(
-					'name'      => __( 'Large', 'balasana' ),
-					'shortName' => __( 'L', 'balasana' ),
+					'name'      => __( 'Large', 'yidl' ),
+					'shortName' => __( 'L', 'yidl' ),
 					'size'      => 28.8,
 					'slug'      => 'large',
 				),
 				array(
-					'name'      => __( 'Huge', 'balasana' ),
-					'shortName' => __( 'XL', 'balasana' ),
+					'name'      => __( 'Huge', 'yidl' ),
+					'shortName' => __( 'XL', 'yidl' ),
 					'size'      => 34.56,
 					'slug'      => 'huge',
 				),
@@ -70,32 +70,32 @@ if ( ! function_exists( 'balasana_setup' ) ) :
 			'editor-color-palette',
 			array(
 				array(
-					'name'  => __( 'Primary', 'balasana' ),
+					'name'  => __( 'Primary', 'yidl' ),
 					'slug'  => 'primary',
 					'color' => $primary,
 				),
 				array(
-					'name'  => __( 'Secondary', 'balasana' ),
+					'name'  => __( 'Secondary', 'yidl' ),
 					'slug'  => 'secondary',
 					'color' => $secondary,
 				),
 				array(
-					'name'  => __( 'Background', 'balasana' ),
+					'name'  => __( 'Background', 'yidl' ),
 					'slug'  => 'background',
 					'color' => $background,
 				),
 				array(
-					'name'  => __( 'Foreground', 'balasana' ),
+					'name'  => __( 'Foreground', 'yidl' ),
 					'slug'  => 'foreground',
 					'color' => $foreground,
 				),
 				array(
-					'name'  => __( 'Foreground Light', 'balasana' ),
+					'name'  => __( 'Foreground Light', 'yidl' ),
 					'slug'  => 'foreground-light',
 					'color' => $foreground_light,
 				),
 				array(
-					'name'  => __( 'Foreground Dark', 'balasana' ),
+					'name'  => __( 'Foreground Dark', 'yidl' ),
 					'slug'  => 'foreground-dark',
 					'color' => $foreground_dark,
 				),
@@ -115,22 +115,22 @@ if ( ! function_exists( 'balasana_setup' ) ) :
 		);
 	}
 endif;
-add_action( 'after_setup_theme', 'balasana_setup', 12 );
+add_action( 'after_setup_theme', 'yidl_setup', 12 );
 
 /**
  * Filter the content_width in pixels, based on the child-theme's design and stylesheet.
  */
-function balasana_content_width() {
+function yidl_content_width() {
 	return 750;
 }
-add_filter( 'varia_content_width', 'balasana_content_width' );
+add_filter( 'varia_content_width', 'yidl_content_width' );
 
 /**
  * Add Google webfonts
  *
  * - See: http://themeshaper.com/2014/08/13/how-to-add-google-fonts-to-wordpress-themes/
  */
-function balasana_fonts_url() {
+function yidl_fonts_url() {
 
 	$fonts_url = '';
 
@@ -138,13 +138,13 @@ function balasana_fonts_url() {
 	* supported by Roboto Condensed, translate this to 'off'. Do not translate
 	* into your own language.
 	*/
-	$roboto_condensed = esc_html_x( 'on', 'Roboto Condensed font: on or off', 'balasana' );
+	$roboto_condensed = esc_html_x( 'on', 'Roboto Condensed font: on or off', 'yidl' );
 
 	/* Translators: If there are characters in your language that are not
 	* supported by Roboto, translate this to 'off'. Do not translate
 	* into your own language.
 	*/
-	$roboto = esc_html_x( 'on', 'Roboto font: on or off', 'balasana' );
+	$roboto = esc_html_x( 'on', 'Roboto font: on or off', 'yidl' );
 
 	if ( 'off' !== $roboto_condensed || 'off' !== $roboto ) {
 		$font_families = array();
@@ -178,30 +178,30 @@ function balasana_fonts_url() {
 /**
  * Enqueue scripts and styles.
  */
-function balasana_scripts() {
+function yidl_scripts() {
 
 	// enqueue Google fonts
-	wp_enqueue_style( 'balasana-fonts', balasana_fonts_url(), array(), null );
+	wp_enqueue_style( 'yidl-fonts', yidl_fonts_url(), array(), null );
 
 	// dequeue parent styles
 	wp_dequeue_style( 'varia-style' );
 
 	// enqueue child styles
-	wp_enqueue_style( 'balasana-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'yidl-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
 
 	// enqueue child RTL styles
-	wp_style_add_data( 'balasana-style', 'rtl', 'replace' );
+	wp_style_add_data( 'yidl-style', 'rtl', 'replace' );
 
 }
-add_action( 'wp_enqueue_scripts', 'balasana_scripts', 99 );
+add_action( 'wp_enqueue_scripts', 'yidl_scripts', 99 );
 
 /**
  * Enqueue theme styles for the block editor.
  */
-function balasana_editor_styles() {
+function yidl_editor_styles() {
 
 	// Enqueue Google fonts in the editor
-	wp_enqueue_style( 'balasana-editor-fonts', balasana_fonts_url(), array(), null );
+	wp_enqueue_style( 'yidl-editor-fonts', yidl_fonts_url(), array(), null );
 
 	// Hide duplicate palette colors
 	$colors_array = get_theme_mod( 'colors_manager', array( 'colors' => true ) ); // color annotations array()
@@ -213,4 +213,4 @@ function balasana_editor_styles() {
 		wp_add_inline_style( 'wp-edit-blocks', $inline_palette_css );
 	}
 }
-add_action( 'enqueue_block_editor_assets', 'balasana_editor_styles' );
+add_action( 'enqueue_block_editor_assets', 'yidl_editor_styles' );

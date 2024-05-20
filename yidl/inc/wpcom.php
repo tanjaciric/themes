@@ -4,7 +4,7 @@
  *
  * @global array $themecolors
  */
-function balasana_wpcom_setup() {
+function yidl_wpcom_setup() {
 	global $themecolors;
 
 	// Set theme colors for third party services.
@@ -18,4 +18,4 @@ function balasana_wpcom_setup() {
 		);
 	}
 }
-add_action( 'after_setup_theme', 'balasana_wpcom_setup' );
+add_action( 'after_setup_theme', 'yidl_wpcom_setup' );

@@ -1,5 +1,5 @@
 <?php
-/* Custom Colors: Balasana */
+/* Custom Colors: yidl */
 
 // Background Color (White)
 // $config-global--color-background-default
@@ -408,7 +408,7 @@ add_color_rule( 'fg1', '#BC2213', array(
 /**
   * Custom CSS
   */
-function balasana_custom_colors_extra_css() {
+function yidl_custom_colors_extra_css() {
 	$colors_array = get_theme_mod( 'colors_manager' );
 	$bg           = $colors_array['colors']['bg'];
 	$link         = $colors_array['colors']['link'];
@@ -422,7 +422,7 @@ function balasana_custom_colors_extra_css() {
 		}
 	}
 <?php }
-add_theme_support( 'custom_colors_extra_css', 'balasana_custom_colors_extra_css' );
+add_theme_support( 'custom_colors_extra_css', 'yidl_custom_colors_extra_css' );
 
 /**
  * Featured Varia Palettes
