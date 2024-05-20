@@ -167,8 +167,7 @@ $grid-configuration: map-extend($grid-configuration-default, $grid-configuration
 body {
 	color: #303030;
 	background-color: #FFFFFF;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-base, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 1.6;
@@ -180,17 +179,22 @@ body {
 	font-size: 20px;
 }
 
+h, h1, h2, h3 {
+	font-family: "Open Sans", sans-serif;
+	color: #5E3B25;
+}
+
 p {
 	font-size: 1em;
 	line-height: 1.6;
 }
 
 a {
-	color: #19744C;
+	color: #F86900;
 }
 
 a:hover {
-	color: #145f3e;
+	color: #F86900;
 }
 
 .has-primary-background-color a:not(.has-text-color) {
@@ -200,6 +204,7 @@ a:hover {
 button,
 a {
 	cursor: pointer;
+	color: #F86900;
 }
 
 button,
@@ -375,7 +380,7 @@ object {
 }
 
 .wp-block-a8c-blog-posts .entry-title a {
-	color: #19744C;
+	color: #F86900;
 }
 
 .has-background:not(.has-background-background-color) .wp-block-a8c-blog-posts .entry-title a,
@@ -385,7 +390,7 @@ object {
 }
 
 .wp-block-a8c-blog-posts .entry-title a:hover {
-	color: #145f3e;
+	color: #F86900;
 	text-decoration: underline;
 }
 
@@ -408,7 +413,7 @@ object {
 }
 
 .wp-block-a8c-blog-posts .more-link:hover, .wp-block-a8c-blog-posts .more-link:active {
-	color: #145f3e;
+	color: #F86900;
 	text-decoration: none;
 }
 
@@ -456,7 +461,7 @@ object {
 .wp-block-a8c-blog-posts .entry-meta a:hover, .wp-block-a8c-blog-posts .entry-meta a:active,
 .wp-block-a8c-blog-posts .cat-links a:hover,
 .wp-block-a8c-blog-posts .cat-links a:active {
-	color: #145f3e;
+	color: #F86900;
 	text-decoration: none;
 }
 
@@ -490,10 +495,9 @@ object {
 	color: #FFFFFF;
 	cursor: pointer;
 	font-weight: 700;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-base, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 0.83333rem;
-	background-color: #19744C;
+	background-color: #F86900;;
 	border-radius: 4px;
 	border-width: 0;
 	text-decoration: none;
@@ -561,11 +565,10 @@ object {
 .wp-block-button__link {
 	color: #FFFFFF;
 	font-weight: 700;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-base, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 0.83333em;
 	line-height: 1;
-	background-color: #19744C;
+	background-color: #F86900;
 	border-radius: 4px;
 	padding: 16px 16px;
 	/* Outline Style */
@@ -584,7 +587,7 @@ object {
 
 .wp-block-button__link.is-style-outline:not(.has-text-color),
 .is-style-outline .wp-block-button__link:not(.has-text-color) {
-	color: #19744C;
+	color: #F86900;
 }
 
 .wp-block-button__link.is-style-outline:hover, .wp-block-button__link.is-style-outline:focus, .wp-block-button__link.is-style-outline.has-focus,
@@ -609,11 +612,10 @@ object {
 .button {
 	color: #FFFFFF;
 	font-weight: 700;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-base, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 0.83333em;
 	line-height: 1;
-	background-color: #19744C;
+	background-color: #F86900;
 	border-radius: 4px;
 	padding: 16px 16px;
 }
@@ -685,8 +687,7 @@ object {
 .wp-block-heading h4, h4, .h4,
 .wp-block-heading h5, h5, .h5,
 .wp-block-heading h6, h6, .h6 {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	clear: both;
 }
@@ -764,8 +765,7 @@ object {
 }
 
 .wp-block-latest-posts > li > a {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 1.728rem;
 	font-weight: 700;
 	line-height: 1.125;
@@ -852,8 +852,7 @@ p.has-background:not(.has-background-background-color) a {
 }
 
 .wp-block-pullquote blockquote p {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 1.728rem;
 	letter-spacing: normal;
 	line-height: 1.125;
@@ -890,17 +889,16 @@ p.has-background:not(.has-background-background-color) a {
 }
 
 .wp-block-pullquote.is-style-solid-color:not(.has-background) {
-	background-color: #19744C;
+	background-color: #F86900;
 }
 
 .wp-block-quote {
-	border-left-color: #19744C;
+	border-left-color: #F86900;
 	padding-left: 16px;
 }
 
 .wp-block-quote p {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 1.728em;
 	letter-spacing: normal;
 }
@@ -911,8 +909,7 @@ p.has-background:not(.has-background-background-color) a {
 }
 
 .wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: 2.0736em;
 	letter-spacing: normal;
 	line-height: 1.125;
@@ -972,8 +969,7 @@ p.has-background:not(.has-background-background-color) a {
 	padding: 16px;
 	font-size: 1rem;
 	line-height: 1rem;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-base, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	max-width: inherit;
 	margin-right: calc( .66 * 16px);
 	background: white;
@@ -1057,8 +1053,7 @@ hr {
 
 table th,
 .wp-block-table th {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 }
 
 table td,
@@ -1085,8 +1080,7 @@ pre.wp-block-verse {
  */
 .editor-post-title__block .editor-post-title__input {
 	color: #303030;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	font-size: 2.48832;
 	letter-spacing: normal;
@@ -1095,7 +1089,7 @@ pre.wp-block-verse {
 
 .wp-block .has-primary-color,
 .has-primary-color {
-	color: #19744C;
+	color: #F86900;
 }
 
 .wp-block .has-secondary-color,
@@ -1145,7 +1139,7 @@ pre.wp-block-verse {
 
 .has-primary-background-color,
 .has-primary-background-color.has-background-dim {
-	background-color: #19744C;
+	background-color: #F86900;
 	color: #FFFFFF;
 }
 
@@ -1253,8 +1247,7 @@ pre.wp-block-verse {
 }
 
 .has-drop-cap:not(:focus)::first-letter {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	font-family: var(--font-headings, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+	font-family: "Open Sans", sans-serif;
 	font-size: calc(2 * 2.98598em);
 	font-weight: 700;
 }
