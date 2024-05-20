@@ -1,11 +1,11 @@
 {
-	"name": "balasana",
+	"name": "yidl",
 	"version": "1.3.27",
-	"description": "Balasana",
+	"description": "yidl",
 	"bugs": {
 		"url": "https://github.com/Automattic/themes/issues"
 	},
-	"homepage": "https://github.com/Automattic/themes/tree/balasana#readme",
+	"homepage": "https://github.com/Automattic/themes/tree/yidl#readme",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^5.16.0",
 		"autoprefixer": "^10.4.2",
